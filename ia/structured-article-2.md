@@ -3,6 +3,6 @@ name: fixed-gear bicycle
 
 ---
 
-**A Fixed-gear bicycle** (or fixed-wheel bicycle, commonly known as a fixie) is a bicycle that has a [drivetrain](http://en.wikipedia.org/wiki/Bicycle_drivetrain_systems) with no freewheel mechanism. The [freewheel](http://en.wikipedia.org/wiki/Freewheel) was developed early in the history of [bicycle](http://en.wikipedia.org/wiki/Bicycle) design but the fixed-gear bicycle remained the standard track racing design. More recently the 'fixie' has become a popular alternative among mainly urban cyclists, offering the advantages of simplicity compared with the standard multi-geared bicycle.
+**These days** you can't go into any major metropolitan area without seeing some young, tattooed kid on a fixed-gear bike. The single-geared beasts of burden are often built for speed and gained notoriety among messenger culture, before being appropriated by tree-hugging, smog-hating hipsters everywhere... but you know, in an ironic way.
 
-Most bicycles incorporate a freewheel to allow the pedals to remain stationary while the bicycle is in motion, so that the rider can coast, i.e., ride without pedalling using the forward or downhill energy of the bike and rider...
+Even if you don't live in Portland, Oregon or Williamsburg, Brooklyn, these rides are simple to maintain, easy to get used to, and also good for serious riders looking to train in the off-season. Whether you're looking to add to your collection or hoping to hop on the bandwagon for less, we got you covered.
