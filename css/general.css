@@ -1,55 +1,182 @@
-@charset "UTF-8";
-/* CSS Document */
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
 
-html {
-	margin:0;
-	padding: 0;
-	font: normal 100%/1.4 georgia,serif;
-	font-size: 13px;
-	background-color: #e2e2e2;
+
+.flex-img {
+	display: block;
+	width: 100%;
+}
+
+ html {
+	 font-family:Georgia, "Times New Roman", Times, serif;
+	 font-size: 12px;
+ }
+ 
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
 	margin: 0;
-	padding:0;
+	padding: 0;
+	background-color: #e2e2e2;
+
+	font-family: 'Nunito', sans-serif;
 }
 
-img{
+.masthead {
 	
-	width: 100%;
-}
-
-.grid {
-	overflow:hidden;
-}
-
-.unit { 
-	float: left;
-	width: 33.333333%;
-	background-color: #fff;
-}
-
-.unit-2-3{
-	width: 66.66667%;
-}
-
-.unit-spacer {
-	padding: 1em;
-}
-
-@media only screen and (min-width: 38em) and (max-width: 60em) {
+	overflow: hidden;
+	background-color: #09F
 	
-	.unit-m-1 {
-		float:none;
-		width:100%;
+}
+
+.masthead-top {
+	overflow: hidden;
+	position: relative;
+	
+}
+
+.articles {
+	display:none;
+}
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited {
+	bottom: 17px;
+	height: 35px;
+	overflow: hidden;
+	position: absolute;
+	right: 1px;
+	width: 46px;
+
+	background: transparent url("../img/nav-button.svg") no-repeat 0 0;
+	border: 0;
+
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+
+.nav-btn[data-state="active"] {
+	bottom: 17px;
+	height: 35px;
+	overflow: hidden;
+	position: absolute;
+	right: 1px;
+	width: 46px;
+
+	background: transparent url("../img/nav-button-exit.svg") no-repeat 0 0;
+	border: 0;
+
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+.nav {
+	background-color: #888;
+}
+
+
+.nav > ul {
+	margin: 0;
+	text-align: left;
+	padding: 0em 0 0 0;
+	
+
+	list-style-type: none;
+	font-size: 0.9em;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+	display: block;
+	padding: 0.9em 10px;
+
+	
+	color: #000;
+	
+	text-decoration: none;
+	border-bottom: 0px solid; opacity: 0.9;
+	border-bottom-color: #555;
+	
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active {
+	background-color: #777;
+
+	color: #444;
+}
+
+.nav-bottom {
+	margin-top: 1.5em;
+}
+
+.nav-top {
+	max-height: 0;
+
+	-moz-transition: all 250ms linear;
+	-o-transition: all 250ms linear;
+	-webkit-transition: all 250ms linear;
+	transition: all 250ms linear;
+}
+
+
+.nav-top[data-state="expanded"] {
+	max-height: 14em;
+}
+
+div {
+	display: block;
+}
+
+.paragraph {
+	color: #555;
+	padding: 10px 0px 15px 0px;
+}
+
+.title {
+	color:#444;
+}
+
+
+@media only screen and (min-width: 38em) {
+	
+	
+	
+
+	.nav {
+			float: right;
+		    background: none;
+	}
+
+	.nav li {
+		display: inline-block;
+		float: none;
+		margin: 0 0.5rem;
+		width: auto;
+		
+		
+		
+		
+	}
+
+	.nav-btn {
+		display: none;
+	}
+
+	.nav-top {
+		max-height: 5rem;
 	}
 	
-	.unit-m-1-2 {
-		width: 50%;
-	}
-}
 
-
-@media only screen and (min-width: 60em) {
-	
 }
