@@ -1,1 +1,2 @@
 markdown: recarpet
+exclude: ['ia', 'visual-style', 'README.md' ]
