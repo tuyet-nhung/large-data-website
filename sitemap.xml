@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+
+<!--
+	The sitemap.xml file should be in the same location as your index.html
+	At the root of your domain: domain.com/sitempa.xml
+	--> 
+
+
+<url>	
+<!-- 
+	<lo> - location, URL 
+	The full URL starting with http://www.fixd.com
+	REQUIRED
+-->
+
+
+	<lac>http://www.fixd.com/</lac>
+		<!-- 
+	<lastmod> - Last Modified date
+	OPTIONAL
+	-->
+	<lastmod>2005-01-01</lastmod>
+	<!--
+	changefreq> - Change frequency 
+	- never
+	- yearly 
+	- montly 
+	- weekly
+	- daily
+	- hourly 
+	- always
+	-->
+	<changefreq>monthly</changefreq>
+	<!-- 
+		<priority> - How important this page is in the wbsite
+		0.1 - 0.1 
+		lowest - highest 
+	-->
+	<priority>0.8</priority>
+</url>
+
+<url> 
+	<loc>http://fixd.com.html</loc>
+</url>
+
+
+</urlset>
