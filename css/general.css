@@ -7,12 +7,13 @@
 
 .flex-img {
 	display: block;
-	width: 100%;
+	max-width: 100%;
 }
+
 
  html {
 	 font-family:Georgia, "Times New Roman", Times, serif;
-	 font-size: 12px;
+	 font-size: 11px;
  }
  
 * {
@@ -21,18 +22,54 @@
 	box-sizing: border-box;
 }
 
+.article {
+	list-style-type: none;
+	color: #009E9B;
+	text-decoration: none;
+	
+	font-size:14px;
+	
+	border-bottom: solid 1px;
+
+}
+
+
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #e2e2e2;
+	background-color: #fff;
 
 	font-family: 'Nunito', sans-serif;
 }
 
+h1 {
+	background-color: #DDD;
+	color: #009E9B;
+}
+
+
+.logo {
+	float: left;
+	height: 60px;
+	margin: 0 10px 0;
+	padding: 0;
+	width: 80px;
+
+	background: transparent url("../img/logo.svg") no-repeat left top;
+	background-size: 80px auto;
+
+	font-size: 1.5em;
+	line-height: 1.5;
+	text-indent: 100%;
+	white-space: nowrap;
+}
+
+
+
 .masthead {
 	
 	overflow: hidden;
-	background-color: #09F
+	background-color: #009E9B;
 	
 }
 
@@ -80,7 +117,7 @@ body {
 }
 
 .nav {
-	background-color: #888;
+	background-color: #fff;
 }
 
 
@@ -112,7 +149,7 @@ body {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-	background-color: #777;
+	background-color: #009E9B;
 
 	color: #444;
 }
@@ -149,11 +186,19 @@ div {
 }
 
 
+.article-image {
+	padding: 8px;
+}
+
+.mobile-header {
+	padding: 8px;
+	margin: 0px;
+
+    border-bottom: 1px solid #888;
+}
+
 @media only screen and (min-width: 38em) {
 	
-	
-	
-
 	.nav {
 			float: right;
 		    background: none;
@@ -164,9 +209,7 @@ div {
 		float: none;
 		margin: 0 0.5rem;
 		width: auto;
-		
-		
-		
+	
 		
 	}
 
@@ -177,6 +220,12 @@ div {
 	.nav-top {
 		max-height: 5rem;
 	}
+	
+	
+	.mobile-header {
+	text-align:left;
+	padding: 8px;
+}
 	
 
 }
