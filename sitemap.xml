@@ -12,12 +12,12 @@
 <url>	
 <!-- 
 	<lo> - location, URL 
-	The full URL starting with http://www.fixd.com
+	The full URL starting with http://nickmcd.github.io/large-data-website/
 	REQUIRED
 -->
 
 
-	<lac>http://www.fixd.com/</lac>
+	<lac>http://nickmcd.github.io/large-data-website/</lac>
 		<!-- 
 	<lastmod> - Last Modified date
 	OPTIONAL
